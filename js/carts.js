@@ -30,13 +30,10 @@ function removeFromCart(productId) {
     let productIndex = cartItems.findIndex(item => item.id === productId);
 
     if (productIndex !== -1) {
-        // Remove the product from the cart array
         cartItems.splice(productIndex, 1);
 
-        // Update the cart in localStorage
         localStorage.setItem("ProductsInCart", JSON.stringify(cartItems));
 
-        // Redraw the cart products
         drawCartProducts(cartItems);
     }
 }
