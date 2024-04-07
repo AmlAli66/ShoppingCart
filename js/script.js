@@ -21,25 +21,25 @@ let products = [
         id: 1,
         title: "oppo reno 7",
         color: "blue",
-        imageUrl: "../Images/oppo reno 7.jpg"
+        imageUrl: "../images/oppo reno 7.jpg"
     },
     {
         id: 2,
         title: "i phone 13",
         color: "white",
-        imageUrl: "../Images/IPhone-13.jpg"
+        imageUrl: "../images/iPhone13.jpg"
     },
     {
         id: 3,
         title: "watch32",
         color: "selver",
-        imageUrl: "../Images/w32.jpg"
+        imageUrl: "../images/w32.jpg"
     },
     {
         id: 4,
         title: "car19",
         color: "grey",
-        imageUrl: "../Images/car19.jpg"
+        imageUrl: "../images/car19.jpg"
     },
 ]
 function drawItems() {
